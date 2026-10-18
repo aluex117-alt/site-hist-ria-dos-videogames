@@ -1,0 +1,460 @@
+.imagem-card {
+    width: 100%;
+    height: 190px;
+    object-fit: center;
+}
+
+.navbar {
+    background-color: #191329 !important;
+}
+
+.navbar .nav-link-hover {
+    color: #9333ea !important;
+    transition: color 0.3s ease-in-out;
+}
+
+.card-text {
+    min-height: 48px;
+}
+
+body {
+    background-color: #12121C;
+    color: #FFFFFF;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    flex: 1;
+}
+
+.card {
+    background-color: #222236;
+    color: white;
+    border: 1px solid #393952;
+}
+
+.btn-primary,
+.btn-outline-primary {
+    background-color: #8B5CF6;
+    border-color: #8B5CF6;
+    color: white;
+}
+
+@keyframes rgb {
+    0% {
+        background-color: red;
+        border-color: red;
+    }
+
+    33% {
+        background-color: rgb(35, 100, 240);
+        border-color: rgb(35, 100, 240);
+    }
+
+    66% {
+        background-color: green;
+        border-color: green;
+    }
+
+    100% {
+        background-color: red;
+        border-color: red;
+    }
+}
+
+.btn-primary:hover,
+.btn-outline-primary:hover {
+    animation: rgb 6s linear infinite;
+    color: white;
+}
+
+@keyframes textoRGB {
+    0% {
+        color: red;
+    }
+
+    33% {
+        color: blue;
+    }
+
+    66% {
+        color: lime;
+    }
+
+    100% {
+        color: red;
+    }
+}
+
+h1 {
+    animation: textoRGB 4s linear infinite;
+}
+
+.imagem-sobre {
+    position: relative;
+    left: -100px;
+}
+
+.texto-sobre {
+    font-size: 18px;
+    line-height: 1.3;  
+}
+
+.segunda-secao {
+    margin-top: 180px;
+    align-items: flex-start ;
+}
+
+.segunda-secao .texto-sobre {
+    margin-top: 0;
+    padding-right: 30px;
+}
+
+.terceira-secao {
+    margin-top: 180px;
+    margin-bottom: 120px;
+    align-items: flex-start;
+}
+
+.terceira-secao .texto-sobre {
+    margin-top: 0;
+    padding-left: 30px;
+    line-height: 1.3;
+}
+
+.texto-sobre {
+    margin-top: 17px;
+    line-height: 1.5;
+    padding-left: 30px;
+    margin-bottom: 0;
+}
+
+.imagem-sobre {
+    width: 100%;
+    height: auto;
+}
+
+.terceira-secao .coluna-imagem-final .imagem-sobre {
+    width: 115%;
+    max-width: none;
+    height: auto;
+    display: block;
+}
+
+.main {
+    padding-bottom: 200px !important;
+}
+
+footer {
+    background-color: #191329 !important;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+
+.card-console {
+    background-color: #232035;
+    color: white;
+    border: 1px solid #39334f;
+    border-radius: 12px;
+    overflow: hidden;
+    transition: 0.3s;
+}
+
+.card-console:hover {
+    transform: translateY(-8px);
+    border-color: #9333ea;
+}
+
+.card-console .card-img-top {
+    height: 220px;
+    object-fit: cover;
+}
+
+.btn-roxo {
+    background-color: #6d28d9;
+    color: white;
+}
+
+.btn-roxo:hover {
+    background-color: #9333ea;
+    color: white;
+}
+
+.modal-console {
+    background-color: #232035;
+    color: white;
+    border: 1px solid #9333ea;
+    border-radius: 15px;
+}
+
+.modal-console .modal-header {
+    border-bottom: 1px solid #49366a;
+}
+
+#carouselStreetFighter img {
+    height: 350px;
+    object-fit: contain;
+}
+
+.descricao-jogo {
+    text-align: center;
+    padding: 20px 55px 10px;
+}
+
+.descricao-jogo h5 {
+    color: #a78bfa;
+    font-weight: bold;
+}
+
+.descricao-jogo p {
+    color: #ddd;
+    font-size: 14px;
+}
+
+#carouselStreetFighter .carousel-control-prev,
+#carouselStreetFighter .carousel-control-next {
+    width: 10%;
+    height: 350px;
+}
+
+.modal-console .modal-body {
+    max-height: 75vh;
+    overflow-y: auto;
+
+
+#carouselMario img {
+    height: 350px;
+    object-fit: contain;
+}
+
+
+#carouselMario .carousel-control-prev,
+#carouselMario .carousel-control-next {
+    width: 10%;
+    height: 350px;
+}
+#carouselResidentEvil img {
+    height: 350px;
+    object-fit: contain;
+}
+
+#carouselResidentEvil .carousel-control-prev,
+#carouselResidentEvil .carousel-control-next {
+    width: 10%;
+    height: 350px;
+}
+
+#carouselGTA img {
+    height: 350px;
+    object-fit: contain;
+}
+
+
+#carouselGTA .carousel-control-prev,
+#carouselGTA .carousel-control-next {
+    width: 10%;
+    height: 350px;
+}
+
+#carouselZelda img {
+    height: 350px;
+    object-fit: contain;
+}
+
+
+#carouselZelda .carousel-control-prev,
+#carouselZelda .carousel-control-next {
+    width: 10%;
+    height: 350px;
+}
+
+#carouselSonic img {
+    height: 350px;
+    object-fit: contain;
+}
+
+
+#carouselSonic .carousel-control-prev,
+#carouselSonic .carousel-control-next {
+    width: 10%;
+    height: 350px;
+}
+}
+
+
+.table {
+    border: 1px solid #39334f;
+}
+
+.table thead th {
+    background-color: #6d28d9;
+    color: white;
+    padding: 18px;
+    border-color: #49366a;
+}
+
+.table tbody td {
+    padding: 18px;
+    vertical-align: middle;
+    border-color: #39334f;
+}
+
+
+.accordion {
+    --bs-accordion-bg: #232035;
+    --bs-accordion-color: #ffffff;
+    --bs-accordion-border-color: #39334f;
+    --bs-accordion-btn-bg: #232035;
+    --bs-accordion-btn-color: #ffffff;
+    --bs-accordion-active-bg: #6d28d9;
+    --bs-accordion-active-color: #ffffff;
+    --bs-accordion-btn-focus-box-shadow: none;
+}
+
+.accordion-item {
+    margin-bottom: 10px;
+    border-radius: 10px !important;
+    overflow: hidden;
+}
+
+.accordion-button {
+    color: white;
+    padding: 20px;
+    font-weight: 500;
+}
+
+.accordion-button:not(.collapsed) {
+    color: white;
+}
+
+.accordion-button::after {
+    filter: brightness(0) invert(1);
+}
+
+.accordion-body {
+    padding: 25px;
+    line-height: 1.8;
+    color: #dddddd;
+}
+
+
+.table.table-dark {
+    --bs-table-bg: #262039;
+    --bs-table-striped-bg: #1d192c;
+    --bs-table-hover-bg: #34234f;
+
+    --bs-table-color: #f5f0ff;
+    --bs-table-striped-color: #f5f0ff;
+    --bs-table-hover-color: #ffffff;
+
+    --bs-table-border-color: #423653;
+
+    border: 1px solid #423653;
+}
+
+
+.table.table-dark thead th {
+    background-color: #6d28d9;
+    color: #ffffff;
+    padding: 18px;
+    border-color: #6d28d9;
+}
+
+
+.table.table-dark tbody td {
+    padding: 18px;
+    vertical-align: middle;
+    border-color: #423653;
+}
+
+
+.table.table-dark tbody tr {
+    transition: background-color 0.2s ease;
+}
+
+
+.formulario-contato {
+    background-color: #232035;
+    color: #ffffff;
+    border: 1px solid #49366a;
+    border-radius: 15px;
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.25);
+}
+
+
+.formulario-contato h2 {
+    color: #c4b5fd;
+    font-weight: 600;
+}
+
+
+.formulario-contato .form-label {
+    color: #e9ddff;
+    font-weight: 500;
+}
+
+
+.formulario-contato .form-control,
+.formulario-contato .form-select {
+    background-color: #191627;
+    color: #ffffff;
+    border: 1px solid #49366a;
+    border-radius: 8px;
+    padding: 12px;
+}
+
+
+.formulario-contato .form-control::placeholder {
+    color: #a8a0b8;
+}
+
+
+.formulario-contato .form-control:focus,
+.formulario-contato .form-select:focus {
+    background-color: #191627;
+    color: #ffffff;
+    border-color: #9333ea;
+    box-shadow: 0 0 0 3px rgba(147, 51, 234, 0.2);
+}
+
+
+.formulario-contato .form-select option {
+    background-color: #191627;
+    color: white;
+}
+
+
+.formulario-contato .form-check-input {
+    background-color: #191627;
+    border-color: #9333ea;
+}
+
+.formulario-contato .form-check-input:checked {
+    background-color: #6d28d9;
+    border-color: #6d28d9;
+}
+
+.formulario-contato .form-check-label {
+    color: #dddddd;
+}
+
+
+.formulario-contato .btn-roxo {
+    background-color: #6d28d9;
+    color: white;
+    border: none;
+    padding: 12px;
+    border-radius: 8px;
+    transition: 0.3s;
+}
+
+.formulario-contato .btn-roxo:hover {
+    background-color: #9333ea;
+    color: white;
+    transform: translateY(-2px);
+}
+
